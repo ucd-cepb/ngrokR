@@ -1,0 +1,17 @@
+Package: ngrokR
+Type: Package
+Title: Initiate and stop ngrok livecode tunnel in RStudio
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Tyler",
+           family = "Scott",
+           role = c("aut","cre"),
+           email = "tascott@ucdavis.edu"))
+Description: When teaching R (or other programming languages), it's challenging for students to view and replicate code that the instructor is writing in front of the class. nGrok is a software tool that allows for the creation of a tunnel to the instructor's computer that students can access, and thus view/copy the code on their own computer. Setting up nGrok is a little cumbersome, so this package is meant to make it easier to create a tunnel at the start of class and close it when finished. 
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    livecode,
+    rstudioapi
